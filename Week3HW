@@ -1,0 +1,4 @@
+library(sas7bdat)
+nychanes <- read.sas7bdat("[file name")
+s <- summary(nychanes)
+View(s)
